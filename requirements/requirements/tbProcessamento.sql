@@ -1,0 +1,9 @@
+CREATE TABLE AutomateEnterprise.dbo.tbProcessPY018 (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    TipoIF VARCHAR(100) NOT NULL,
+    CodigoIF VARCHAR(100) NOT NULL,
+    DataValor DATETIME NOT NULL DEFAULT GETDATE(),
+    ValorCota DECIMAL(20, 8) NOT NULL,
+    CnpjFundo VARCHAR(30) NOT NULL,
+    DataProcessamento DATETIME NOT NULL DEFAULT GETDATE()
+);
