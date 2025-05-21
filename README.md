@@ -86,8 +86,3 @@ python AtualizaCotas.py
 - Apenas dados novos são processados e enviados.
 
 ---
-
-## 🤝 Contribuições
-
-Sugestões, melhorias e correções são bem-vindas. Colabore com este projeto por meio de issues ou pull requests.
-
